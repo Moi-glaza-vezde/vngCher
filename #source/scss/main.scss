@@ -1,0 +1,259 @@
+.main {
+   &__title {
+      @media (max-width: 936px) {
+         font-size: 40px;
+         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+         //text-shadow: none;
+      }
+      @media (max-width: 789px) {
+         font-size: 30px;
+      }
+      @media (max-width: 641px) {
+         font-size: 25px;
+         padding: 0px 5px 50px 10px;
+      }
+      @media (max-width: 470px) {
+         font-size: 20px;
+         padding: 0px 5px 20px 10px;
+      }
+      font-size: 50px;
+      padding: 0px 5px 50px 40px;
+      font-weight: 600;
+
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Oswald', sans-serif;
+
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff;
+      opacity: 0;
+      // transform: translateY(50px);
+      transform: translateX(-100%);
+      transition: opacity 1s ease-out, transform 0.6s ease-out;
+   }
+   &__title.animation {
+      opacity: 1;
+      // transform: translateY(0);
+      transform: translateX(0);
+   }
+   &__advantagesm-container {
+      @media (max-width: 1420px) {
+         height: 1050px;
+      }
+      @media (max-width: 523px) {
+         padding: 50px 10px 0 10px;
+      }
+      @media (max-width: 389px) {
+         padding: 20px 5px 0 5px;
+      }
+      @media (max-width: 580px) {
+         height: 1300px;
+      }
+      background-image: url('./../img/main/bg2.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 0%;
+      height: 900px;
+
+      padding: 50px 30px 0 50px;
+   }
+
+   &__advantages-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      .active {
+         max-width: 400px;
+      }
+      transform: translateX(100%);
+      opacity: 0;
+
+      transition: opacity 1s ease-out, transform 0.6s ease-out;
+   }
+   &__advantages-box.animation {
+      transform: translateX(0);
+      opacity: 1;
+   }
+   &__advantage {
+      @media (max-width: 780px) {
+         width: 250px;
+      }
+      @media (max-width: 680px) {
+         width: 200px;
+      }
+      @media (max-width: 580px) {
+         width: 400px;
+      }
+      @media (max-width: 470px) {
+         width: 300px;
+      }
+
+      margin: 10px;
+      transition-duration: 0.2s;
+      width: 300px;
+      background-color: rgba(158, 146, 122, 0.9);
+      background: rgba($color: #fff, $alpha: 0.7);
+      border-radius: 10px;
+      border-radius: 0;
+
+      box-shadow: 1px 2px 5px #000000, -1px 0px 5px #000000;
+      box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3), -1px 0px 20px rgba(0, 0, 0, 0.3);
+
+      padding-bottom: 10px;
+   }
+
+   &__advantage-ttitle {
+      @media (max-width: 780px) {
+         font-size: 18px;
+         line-height: 20px;
+      }
+      @media (max-width: 680px) {
+         font-size: 15px;
+         line-height: 18px;
+      }
+      @media (max-width: 580px) {
+         font-size: 22px;
+         line-height: 25px;
+      }
+      @media (max-width: 470px) {
+         font-size: 20px;
+         line-height: 23px;
+      }
+      @media (max-width: 350px) {
+         font-size: 18px;
+         line-height: 20px;
+      }
+      margin: 0 auto;
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Oswald', sans-serif;
+
+      text-align: center;
+      padding: 10px 10px;
+      font-size: 22px;
+      line-height: 25px;
+      border-bottom: 2px solid #716d67;
+      max-width: 250px;
+      font-weight: 400;
+   }
+
+   &__advantage-text {
+      @media (max-width: 780px) {
+         font-size: 15px;
+      }
+      @media (max-width: 680px) {
+         font-size: 12px;
+         line-height: 14px;
+      }
+      @media (max-width: 580px) {
+         font-size: 20px;
+         line-height: 22px;
+      }
+      @media (max-width: 470px) {
+         font-size: 18px;
+         line-height: 20px;
+      }
+      @media (max-width: 350px) {
+         font-size: 16px;
+         line-height: 18px;
+      }
+      color: #716d67;
+      color: #000000;
+      padding: 20px 15px 0 15px;
+      font-size: 17px;
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+
+      line-height: 20px;
+      font-weight: 600;
+      filter: brightness(8);
+   }
+   &__subtitle {
+      @media (max-width: 936px) {
+         font-size: 35px;
+         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+         //text-shadow: none;
+      }
+      @media (max-width: 789px) {
+         font-size: 30px;
+      }
+      @media (max-width: 641px) {
+         font-size: 25px;
+         padding: 0px 5px 50px 10px;
+      }
+      @media (max-width: 470px) {
+         font-size: 20px;
+         padding: 0px 5px 20px 10px;
+      }
+      max-width: 80%;
+      font-size: 40px;
+      line-height: 45px;
+      padding: 0px 5px 20px 40px;
+      font-weight: 500;
+
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Oswald', sans-serif;
+
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff;
+
+      transform: translateY(50px);
+      opacity: 0;
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+   }
+
+   &__subtitle.animation {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+
+   &__advantage-btn-box {
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Karla', sans-serif;
+
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+
+      transform: translateY(-50px);
+      opacity: 0;
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+   }
+
+   &__advantage-btn-box.animation {
+      transform: translateY(0px);
+      opacity: 1;
+   }
+
+   &__advantage-btn1 {
+      background-color: #1ebd2e;
+      box-shadow: 1px 2px 5px #000000, -1px 0px 5px #000000;
+
+      width: 120px;
+      text-align: center;
+      padding: 10px 5px;
+      margin: 10px;
+      border-radius: 10px;
+      border-radius: 0;
+      transition-duration: 0.2s;
+   }
+   &__advantage-btn1:hover {
+      transform: scale(1.1);
+      transition-duration: 0.2s;
+   }
+   &__advantage-btn2 {
+      background-color: #18bec9;
+      width: 120px;
+      text-align: center;
+      padding: 10px 5px;
+      margin: 10px;
+      border-radius: 10px;
+      border-radius: 0;
+
+      box-shadow: 1px 2px 5px #000000, -1px 0px 5px #000000;
+      transition-duration: 0.2s;
+   }
+   &__advantage-btn2:hover {
+      transform: scale(1.1);
+      transition-duration: 0.2s;
+   }
+}

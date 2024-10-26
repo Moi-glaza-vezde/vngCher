@@ -1,0 +1,168 @@
+.main {
+   &__services {
+      padding: 50px 0;
+      background: linear-gradient(#c2b9aa, #f3f9fe, #609bc2);
+      background: linear-gradient(60deg, #f3f9fe, #609bc2);
+   }
+
+   &__services-title {
+      @media (max-width: 980px) {
+         font-size: 35px;
+         padding: 0 20px;
+      }
+      @media (max-width: 680px) {
+         font-size: 30px;
+      }
+      @media (max-width: 441px) {
+         font-size: 25px;
+      }
+      font-size: 50px;
+      padding: 0px 20px 50px 40px;
+      font-weight: 500;
+
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Oswald', sans-serif;
+
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+   }
+
+   &__services-title.animation {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+   &__services-cardbox {
+      width: 100%;
+      // padding-top: 50px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+   }
+
+   &__services-card {
+      padding: 20px;
+      max-width: 250px;
+      //display: flex;
+      background-color: #fff;
+      overflow: hidden;
+      border-radius: 5px;
+      border-radius: 0;
+
+      margin: 20px;
+      //max-width: 300px;
+      box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8), -1px 0px 7px rgba(0, 0, 0, 0.8);
+      box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3), -1px 0px 20px rgba(0, 0, 0, 0.3);
+
+      //padding-bottom: 20px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+      img {
+         width: 200px;
+         height: 200px;
+      }
+   }
+   &__services-card:hover {
+      transform: scale(1.05);
+      transition-duration: 0.2s;
+      transition-timing-function: linear;
+   }
+
+   &__services-card.anim-up {
+      transform: translateX(-100%);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      opacity: 0;
+   }
+
+   &__services-card.anim-up.animation {
+      transform: translateY(0);
+      opacity: 1;
+   }
+
+   &__services-card.anim-dowen {
+      transform: translateX(100%);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      opacity: 0;
+   }
+
+   &__services-card.anim-dowen.animation {
+      transform: translateX(0);
+      opacity: 1;
+   }
+
+   &__services-card-infobox {
+      padding: 0 10px;
+   }
+
+   &__services-card-namebox {
+      padding-top: 20px;
+   }
+
+   &__services-card-name {
+      @media (max-width: 940px) {
+         //  font-size: 40px;
+      }
+      @media (max-width: 463px) {
+         // font-size: 25px;
+      }
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+
+      // font-size: 27px;
+      font-weight: 500;
+      font-size: 16px;
+      // text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff,
+      //    0 0 40px #fff;
+   }
+
+   &__services-card-name2 {
+      @media (max-width: 940px) {
+         font-size: 30px;
+      }
+      @media (max-width: 463px) {
+         font-size: 20px;
+      }
+      font-family: 'Nunito', sans-serif;
+      //font-size: 25px;
+      font-weight: 600;
+      display: none;
+   }
+
+   &__services-card-btnbox {
+      float: right;
+      margin-top: 20px;
+   }
+
+   &__services-card-btn1 {
+      @media (max-width: 940px) {
+         font-size: 25px;
+      }
+      @media (max-width: 605px) {
+         font-size: 18px;
+      }
+      @media (max-width: 391px) {
+         font-size: 16px;
+      }
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 1), -1px 0px 5px rgba(0, 0, 0, 1);
+
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Karla', sans-serif;
+
+      border-radius: 5px;
+      border-radius: 0;
+
+      background-color: #1ebd2e;
+      padding: 10px 10px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      transition-duration: 0.2s;
+   }
+
+   &__services-card-btn1:hover {
+      background-color: #f0ede2;
+      color: #000000;
+      transition-duration: 0.2s;
+   }
+}

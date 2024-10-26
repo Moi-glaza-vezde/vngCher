@@ -1,0 +1,114 @@
+.header {
+   position: relative;
+   //overflow: hidden;
+   &__nav {
+      @media (max-width: 1338px) {
+         gap: 50px;
+      }
+      @media (max-width: 1300px) {
+         padding: 40px 0;
+         z-index: 1;
+         position: absolute;
+         display: block;
+
+         top: 100%;
+         width: 100%;
+         right: -100%;
+         // background: linear-gradient(-60deg, #5a412b, #9a8b73);
+         background: linear-gradient(60deg, #f3f9fe, #609bc2);
+
+         transition-duration: 0.2s;
+         transition-timing-function: linear;
+      }
+      align-self: center;
+      display: flex;
+      gap: 100px;
+   }
+
+   &__nav--active {
+      @media (max-width: 1338px) {
+         gap: 50px;
+      }
+      @media (max-width: 1300px) {
+         padding: 40px 0;
+         z-index: 1;
+         position: absolute;
+         display: block;
+
+         top: 100%;
+         width: 100%;
+         right: 0;
+
+         //  background: linear-gradient(-60deg, #5a412b, #9a8b73);
+
+         transition-duration: 0.2s;
+         transition-timing-function: linear;
+      }
+   }
+   &__nav-list {
+      @media (max-width: 1300px) {
+         display: block;
+         text-align: center;
+      }
+      display: flex;
+      gap: 20px;
+      li {
+         @media (max-width: 1300px) {
+            font-weight: 600;
+            font-size: 30px;
+            margin: 20px;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+         }
+         @media (max-width: 500px) {
+            font-size: 20px;
+            margin: 20px;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+         }
+         padding: 5px;
+         position: relative;
+         cursor: pointer;
+         color: #39281e;
+         color: #000000;
+         font-size: 20px;
+
+         font-family: 'Nunito', sans-serif;
+         font-family: 'Open Sans', sans-serif;
+         //font-family: 'Karla', sans-serif;
+
+         font-weight: 600;
+         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff;
+         .line {
+            @media (max-width: 1300px) {
+               display: none;
+            }
+            transition-duration: 0.2s;
+
+            left: 5px;
+            top: 26px;
+            position: absolute;
+            background-color: #39281e;
+            width: 0%;
+            height: 2px;
+         }
+      }
+      li:hover {
+         .line {
+            width: 90%;
+         }
+      }
+   }
+}
+/*
+  font-family: "Roboto Flex", sans-serif;
+
+  font-family: "Karla", sans-serif;
+
+  font-family: "Nunito", sans-serif;
+
+  font-family: "Poppins", sans-serif;
+
+   font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
+
+
+*/

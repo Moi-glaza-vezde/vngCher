@@ -1,0 +1,28 @@
+.black-window {
+   position: absolute;
+   display: block;
+   top: 2;
+   right: -100%;
+
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.79);
+   // background-color: rgba($color: #ffffff, $alpha: 0.6);
+   backdrop-filter: blur(5px);
+   transition-duration: 0.2s;
+   transition-timing-function: linear;
+}
+.black-window--active {
+   position: absolute;
+   display: block;
+   top: 0%;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.79);
+   // background-color: rgba($color: #ffffff, $alpha: 0.6);
+   backdrop-filter: blur(5px);
+
+   transition-duration: 0.2s;
+   transition-timing-function: linear;
+}

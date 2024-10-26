@@ -1,0 +1,277 @@
+.politic {
+   font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+   a {
+      color: blue;
+      text-decoration: underline;
+   }
+   span {
+      background-color: yellow;
+   }
+   &__container {
+      padding: 10px;
+      box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3), -1px 0px 20px rgba(0, 0, 0, 0.3);
+      background-color: #edf4f6;
+   }
+
+   &__title {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 23px;
+   }
+
+   &__title-text {
+      font-size: 14px;
+      line-height: 19px;
+   }
+
+   &__list1 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list1-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list2 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list2-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list3 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list3-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+
+      .doth-item {
+         background-color: #edf4f6;
+         font-size: 18px;
+         padding-left: 10px;
+      }
+   }
+
+   &__list4 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list4-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+      .doth-item {
+         background-color: #edf4f6;
+         font-size: 18px;
+         padding-left: 10px;
+      }
+   }
+
+   &__list5 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list5-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list6 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list6-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list7 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list7-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list8 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list8-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__list9 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__list9-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list1 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list1-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list2 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list2-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list3 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list3-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list4 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list4-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list5 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list5-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list6 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list6-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list7 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list7-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list8 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list8-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+   }
+
+   &__2-list9 {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+   }
+
+   &__2-list9-item {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      padding-left: 10px;
+      .doth-item {
+         background-color: #edf4f6;
+         font-size: 18px;
+         padding-left: 10px;
+      }
+   }
+}

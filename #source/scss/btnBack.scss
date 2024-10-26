@@ -1,0 +1,54 @@
+.btn-back {
+   padding: 30px 20px;
+}
+.btn-back-box {
+   @media (max-width: 431px) {
+      padding: 8px;
+      width: 100px;
+   }
+   max-width: 150px;
+
+   font-family: 'Nunito', sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   background-color: #5a412b;
+   background: linear-gradient(-80deg, #f3f9fe, #609bc2);
+
+   padding: 10px 10px;
+
+   cursor: pointer;
+   transition-duration: 0.2s;
+   box-shadow: 1px 2px 20px #000000, -1px 0px 20px #000000;
+   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3), -1px 0px 20px rgba(0, 0, 0, 0.3);
+
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   span {
+      @media (max-width: 431px) {
+         font-size: 14px;
+      }
+      color: #fff;
+      font-size: 18px;
+   }
+   div {
+      @media (max-width: 431px) {
+         font-size: 14px;
+      }
+      color: #fff;
+      font-size: 18px;
+   }
+}
+
+.btn-back-box:hover {
+   background-color: #f0ede2;
+   transition-duration: 0.2s;
+   margin-left: 10px;
+
+   span {
+      color: #000000;
+   }
+   div {
+      color: #000000;
+   }
+}
